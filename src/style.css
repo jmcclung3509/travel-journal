@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color:  #F55A5A;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    color: white;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 0;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.earth-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.journal-element {
+    border-bottom: 1px solid #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+    width: 550px;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 7px 0 14px 0;
+    
+}
+
+.dates {
+    font-weight: bold;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-bottom: 10px;
+    
+}
+
+.location {
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-right: 12px;
+}
+
+a {
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.main-content{ 
+    height: 168px;
+}
+
+.description {
+    font-size: 10.24px;
+    line-height: 150%;
+    max-width: 326px;
+}
+
+.main-photo {
+    width: 125px;
+    height: 168px;
+    margin-left: 40px;
+    object-fit: cover;
+    margin-top: 25px;
+    padding-left: 0;
+}
+
+.location-map {
+    padding-top: 30px;
+}
+
+.pin {
+    margin-left: 4px;
+}
+
